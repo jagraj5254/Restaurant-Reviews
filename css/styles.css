@@ -131,6 +131,10 @@ nav h1 a {
 
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: DodgerBlue;
   background-color: #f3f3f3;
   list-style: outside none none;
   margin: 0;
@@ -273,3 +277,54 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
+
+@media screen and (max-width: 1125px) and (min-width: 775x){
+  #restaurants-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f3f3f3;
+    list-style: outside none none;
+    margin: 0;
+    padding: 20px 10px 30px;
+    text-align: center;
+  }
+  #restaurants-list li {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    font-family: Arial,sans-serif;
+    margin: 15px;
+    min-height: 380px;
+    padding: 0 30px 25px;
+    text-align: left;
+    width: 100%;
+  }
+  #restaurants-list .restaurant-img {
+    background-color: #ccc;
+    display: block;
+    margin: 0;
+    max-width: 100%;
+  }
+}
+  
+
+@media screen and (max-width: 774px) and (min-width: 0px){
+  #restaurants-list li {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    font-family: Arial,sans-serif;
+    margin: 15px;
+    min-height: 380px;
+    padding: 0 30px 25px;
+    text-align: left;
+    width: 100%;
+  }
+  #restaurants-list .restaurant-img {
+    background-color: #ccc;
+    display: block;
+    margin: 0;
+    max-width: 100%;
+  }
+}
+  
+
