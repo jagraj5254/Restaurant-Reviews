@@ -106,7 +106,6 @@ nav h1 a {
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
   width: 100%;
-  height: 50px;
   background-color: #3397DB;
   align-items: center;
 }
@@ -279,6 +278,11 @@ nav h1 a {
 }
 
 @media screen and (max-width: 1125px) and (min-width: 775x){
+  .filter-options {
+    width: 100%;
+    background-color: #3397DB;
+    align-items: center;
+  }
   #restaurants-list {
     display: flex;
     flex-wrap: wrap;
@@ -309,6 +313,11 @@ nav h1 a {
   
 
 @media screen and (max-width: 774px) and (min-width: 0px){
+  .filter-options {
+    width: 100%;
+    background-color: #3397DB;
+    align-items: center;
+  }
   #restaurants-list li {
     background-color: #fff;
     border: 2px solid #ccc;
