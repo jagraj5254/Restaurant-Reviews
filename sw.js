@@ -46,7 +46,7 @@ self.addEventListener('install', function(event){
                     'https://api.tiles.mapbox.com/v4/mapbox.streets/12/1207/1540.jpg70?access_token=pk.eyJ1IjoiamFncmFqNTI1NCIsImEiOiJjanB5Nm1ydDgxbDE2NDJudG5sNHhmeDA1In0.ORTfhQOgg1-UY4cE8MHy8A',
                     'https://unpkg.com/leaflet@1.3.1/dist/images/marker-icon.png',
                     ' https://unpkg.com/leaflet@1.3.1/dist/images/marker-shadow.png',
-                    ' http://127.0.0.1:5500/manifest.json'
+                    ' ./manifest.json'
 
                 ]
             );
